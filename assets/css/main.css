@@ -2926,3 +2926,26 @@ section,
     font-size: 1rem;
     line-height: 1.6;
 }
+
+/* Stili per il riquadro della lista */
+.card-body .list-item {
+    margin-bottom: 20px;
+}
+
+.card-body .list-item-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-body .list-item-content {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Impostazione della lista senza numeri o punti */
+.card-body .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
