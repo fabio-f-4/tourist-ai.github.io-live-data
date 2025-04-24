@@ -91,7 +91,7 @@
 
   /**
    * Animation on scroll function and init
-   */
+
   function aosInit() {
     AOS.init({
       duration: 600,
@@ -104,14 +104,14 @@
 
   /**
    * Initiate glightbox
-   */
+
   const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
   /**
    * Initiate Pure Counter
-   */
+
   new PureCounter();
 
   /**
