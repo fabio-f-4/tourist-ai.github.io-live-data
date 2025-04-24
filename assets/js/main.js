@@ -227,15 +227,33 @@
     let redirectUrl = '';
 
     // Combinazioni delle città per redirigere
-    if (departureCity === 'Milano' && destinationCity === 'Roma') {
+    if (departureCity === 'Milano' && destinationCity === 'Milano') {
       //redirectUrl = 'milano-roma-itinerary.html';
       redirectUrl = 'itinerary.html';
-    } else if (departureCity === 'Roma' && destinationCity === 'Bologna') {
+    } else if (departureCity === 'Milano' && destinationCity === 'Berlino') {
       //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
-    } else if (departureCity === 'Milano' && destinationCity === 'Bologna') {
+    } else if (departureCity === 'Milano' && destinationCity === 'Roma') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Roma' && destinationCity === 'Milano') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';      
+    } else if (departureCity === 'Roma' && destinationCity === 'Berlino') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Roma' && destinationCity === 'Roma') {
       //redirectUrl = 'torino-bologna-itinerary.html';
       redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Berlino' && destinationCity === 'Milano') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';      
+    } else if (departureCity === 'Berlino' && destinationCity === 'Roma') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Berlino' && destinationCity === 'Berlino') {
+      //redirectUrl = 'torino-bologna-itinerary.html';
+      redirectUrl = 'itinerary.html';      
     } else {
       //redirectUrl = 'default-itinerary.html'; // URL di default se la combinazione non è prevista
     }
