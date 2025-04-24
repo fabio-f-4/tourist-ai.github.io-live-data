@@ -215,4 +215,36 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+
+    // Aggiungiamo una funzione per la redirezione in base alla combinazione delle città
+  function handleRedirect(event) {
+    event.preventDefault(); // Evitiamo il comportamento di submit del form
+
+    const departureCity = document.getElementById("departure").value;
+    const destinationCity = document.getElementById("destination").value;
+
+    // Costruiamo l'URL dinamicamente
+    let redirectUrl = '';
+
+    // Combinazioni delle città per redirigere
+    if (departureCity === 'Milano' && destinationCity === 'Roma') {
+      //redirectUrl = 'milano-roma-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Napoli' && destinationCity === 'Firenze') {
+      //redirectUrl = 'napoli-firenze-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else if (departureCity === 'Torino' && destinationCity === 'Bologna') {
+      //redirectUrl = 'torino-bologna-itinerary.html';
+      redirectUrl = 'itinerary.html';
+    } else {
+      //redirectUrl = 'default-itinerary.html'; // URL di default se la combinazione non è prevista
+    }
+
+    // Redirigiamo l'utente alla pagina selezionata
+    window.location.href = redirectUrl;
+  }
+
+  // Aggiungiamo l'evento di submit al form
+  document.querySelector('form').addEventListener('submit', handleRedirect);
+
 })();
