@@ -2918,4 +2918,11 @@ section,
 .btn-light {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-}v
+}
+
+/* Impostare il colore per il contenuto del post */
+.card-body .post-content {
+    color: #333 !important;
+    font-size: 1rem;
+    line-height: 1.6;
+}
