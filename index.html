@@ -94,8 +94,8 @@
         <div class="row justify-content-center mb-4">
           <div class="col-md-6">
             <label for="departure" class="form-label fw-bold">Da dove parti</label>
-            <select class="form-select form-select-lg text-center" id="departure">
-              <option value="" disabled selected>Seleziona città di partenza</option>
+            <select class="form-select form-select-lg text-center" id="departure">            
+              <option value="Milano" selected>Milano (La tua posizione)</option>
               <option value="Milano">Milano</option>
               <option value="Roma">Roma</option>
               <option value="Torino">Torino</option>
@@ -113,14 +113,13 @@
                   <div class="row mb-4">
                    <div class="col-md-6">
                       <label for="destination" class="form-label">Where do you want to go?</label>
-                     <label for="destination" class="form-label">Where do you want to go?</label>
-                    <select class="form-select form-select-lg text-center" id="departure">
-                      <option value="Milano" selected>Milano (La tua posizione)/option>
-                      <option value="Milano">Milano</option>
-                      <option value="Roma">Roma</option>
-                      <option value="Firenze">Firenze</option>
-                      <option value="Bologna">Bologna</option>
-                    </select>                      
+                      <select class="form-select form-select-lg text-center" id="departure">
+                        <option value="" disabled selected>Where do you want to go?</option>
+                        <option value="Milano">Milano</option>
+                        <option value="Roma">Roma</option>
+                        <option value="Firenze">Firenze</option>
+                        <option value="Bologna">Bologna</option>
+                      </select>                      
                       <input type="text" class="form-control form-control-lg" id="destination" placeholder="City, Country">
                     </div>
 
