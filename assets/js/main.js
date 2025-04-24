@@ -231,28 +231,20 @@
       //redirectUrl = 'milano-roma-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Milano' && destinationCity === 'Berlin') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Milano' && destinationCity === 'Roma') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Roma' && destinationCity === 'Milano') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';      
     } else if (departureCity === 'Roma' && destinationCity === 'Berlin') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Roma' && destinationCity === 'Roma') {
-      //redirectUrl = 'torino-bologna-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Berlin' && destinationCity === 'Milano') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';      
     } else if (departureCity === 'Berlin' && destinationCity === 'Roma') {
-      //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else if (departureCity === 'Berlin' && destinationCity === 'Berlin') {
-      //redirectUrl = 'torino-bologna-itinerary.html';
       redirectUrl = 'itinerary.html';      
     } else {
       //redirectUrl = 'default-itinerary.html'; // URL di default se la combinazione non è prevista
