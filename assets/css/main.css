@@ -2907,7 +2907,7 @@ section,
 .post-content {
     font-size: 1rem;
     line-height: 1.6;
-    color: #333;
+    color: #333 !important;
 }
 
 /* Footer del post (like, comment) */
