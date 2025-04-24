@@ -230,10 +230,10 @@
     if (departureCity === 'Milano' && destinationCity === 'Roma') {
       //redirectUrl = 'milano-roma-itinerary.html';
       redirectUrl = 'itinerary.html';
-    } else if (departureCity === 'Napoli' && destinationCity === 'Firenze') {
+    } else if (departureCity === 'Roma' && destinationCity === 'Bologna') {
       //redirectUrl = 'napoli-firenze-itinerary.html';
       redirectUrl = 'itinerary.html';
-    } else if (departureCity === 'Torino' && destinationCity === 'Bologna') {
+    } else if (departureCity === 'Milano' && destinationCity === 'Bologna') {
       //redirectUrl = 'torino-bologna-itinerary.html';
       redirectUrl = 'itinerary.html';
     } else {
