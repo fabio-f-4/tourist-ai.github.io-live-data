@@ -2869,6 +2869,7 @@ section,
 /* Stile generale per il riquadro dei post */
 .card-body {
     padding: 20px;
+    color: #333;
 }
 
 .post {
