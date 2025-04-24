@@ -2864,3 +2864,57 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+/* Stile generale per il riquadro dei post */
+.card-body {
+    padding: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ddd; /* Linea divisoria tra i post */
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.post:last-child {
+    border-bottom: none; /* Rimuove la linea divisoria dall'ultimo post */
+}
+
+/* Header del post (nome e tempo) */
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.post-header strong {
+    font-size: 1.1rem;
+}
+
+.post-time {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Contenuto del post */
+.post-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Footer del post (like, comment) */
+.post-footer {
+    margin-top: 10px;
+}
+
+.post-footer button {
+    margin-right: 10px;
+}
+
+/* Pulsanti like/commento */
+.btn-light {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}v
