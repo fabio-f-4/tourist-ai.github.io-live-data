@@ -90,13 +90,21 @@
             </div>
           </div>
 
-          <!-- 🔽 Aggiunta: input "Da dove parti" -->
-          <div class="row justify-content-center mb-4">
-            <div class="col-md-6">
-              <label for="departure" class="form-label fw-bold">Da dove parti</label>
-              <input type="text" class="form-control form-control-lg text-center" id="departure" placeholder="Città di partenza">
-            </div>
+          <!-- Aggiunta: input "Da dove parti" -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-6">
+            <label for="departure" class="form-label fw-bold">Da dove parti</label>
+            <select class="form-select form-select-lg text-center" id="departure">
+              <option value="" disabled selected>Seleziona città di partenza</option>
+              <option value="Milano">Milano</option>
+              <option value="Roma">Roma</option>
+              <option value="Torino">Torino</option>
+              <option value="Napoli">Napoli</option>
+              <option value="Firenze">Firenze</option>
+              <option value="Bologna">Bologna</option>
+            </select>
           </div>
+        </div>
           
           <div class="row">
             <div class="col-lg-10 mx-auto">
