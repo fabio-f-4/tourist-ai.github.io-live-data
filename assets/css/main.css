@@ -46,11 +46,16 @@
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #333;
+  --heading-color: #333;
   --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --contrast-color: #333;
 }
+/*
+.text-dark-override {
+  color: #333 !important;
+}
+*/
 
 /* Smooth scroll */
 :root {
