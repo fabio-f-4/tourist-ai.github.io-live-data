@@ -244,7 +244,11 @@
     window.location.href = redirectUrl;
   }
 
-  // Aggiungiamo l'evento di submit al form
-  document.querySelector('form').addEventListener('submit', handleRedirect);
+
+  // Aggiungiamo l'evento di click sul pulsante "Generate My Itinerary"
+  const generateButton = document.querySelector('.btn.btn-primary');
+  if (generateButton) {
+    generateButton.addEventListener('click', handleRedirect);
+  }
 
 })();
