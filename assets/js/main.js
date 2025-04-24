@@ -261,4 +261,21 @@
     generateButton.addEventListener('click', handleRedirect);
   }
 
+    /**
+   * Funzione per gestire i clic sui pulsanti "Like" e "Comment"
+   */
+  document.querySelectorAll('.btn-light').forEach(button => {
+    button.addEventListener('click', function() {
+      // Se il testo del pulsante è "Like", mostra un messaggio di like
+      if (this.innerText === "Like") {
+        alert("You liked the post!");
+        this.innerText = "Liked";  // Cambia il testo del pulsante a "Liked"
+      } 
+      // Se il testo del pulsante è "Comment", mostra un messaggio di commento
+      else if (this.innerText === "Comment") {
+        alert("Add your comment here!");
+      }
+    });
+  });
+
 })();
