@@ -111,10 +111,24 @@
               <div class="search-form">
                 <form>
                   <div class="row mb-4">
-                    <div class="col-md-6 mb-3">
+                   <div class="col-md-6">
                       <label for="destination" class="form-label">Where do you want to go?</label>
+                     <label for="destination" class="form-label">Where do you want to go?</label>
+                    <select class="form-select form-select-lg text-center" id="departure">
+                      <option value="" disabled selected>Seleziona città di partenza</option>
+                      <option value="Milano">Milano</option>
+                      <option value="Roma">Roma</option>
+                      <option value="Torino">Torino</option>
+                      <option value="Napoli">Napoli</option>
+                      <option value="Firenze">Firenze</option>
+                      <option value="Bologna">Bologna</option>
+                    </select>                      
                       <input type="text" class="form-control form-control-lg" id="destination" placeholder="City, Country">
                     </div>
+
+
+
+                    
                     <div class="col-md-6 mb-3">
                       <label for="travelers" class="form-label">Number of Travelers</label>
                       <select class="form-select form-select-lg" id="travelers">
