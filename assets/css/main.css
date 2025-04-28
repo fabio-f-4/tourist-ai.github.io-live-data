@@ -2955,21 +2955,25 @@ section,
     list-style: none;
 }
 
+/* Impostazioni generali per il post */
 .post-header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center; /* Allinea verticalmente avatar e nome */
+  justify-content: space-between; /* Spazia l'avatar e il tempo */
 }
 
-.post-header {
+/* Contenitore dell'avatar e del nome */
+.post-author {
   display: flex;
-  align-items: center; /* Allinea l'avatar e il nome orizzontalmente */
+  align-items: center; /* Allinea orizzontalmente l'avatar con il nome */
 }
 
+/* Contenitore dell'avatar */
 .avatar-container {
-  margin-right: 10px; /* Distanza tra avatar e nome */
+  margin-right: 10px; /* Spazio tra avatar e nome */
 }
 
+/* Avatar con dimensione ridotta */
 .avatar {
   width: 40px; /* Dimensione dell'avatar */
   height: 40px; /* Dimensione dell'avatar */
