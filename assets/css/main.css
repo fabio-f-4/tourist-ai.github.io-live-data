@@ -5988,10 +5988,10 @@ ul.list-unstyled {
 
 /* Colore per il tasto confirms*/
 .btn-confirm{
-  background-color: #ffffff; /* #34B7F1; /* #F44336;  /* Rosso per Dislike */
-  color: white;
+  color: black;
   border: 1px solid #ccc;
 }
+/* background-color: #ffffff; #34B7F1; /* #F44336;  /* Rosso per Dislike */
 
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
