@@ -5865,12 +5865,6 @@ section,
     margin-right: 10px;
 }
 
-/* Pulsanti like/commento */
-.btn-light {
-    background-color: #1877F2;
-    border: 1px solid #ccc;
-}
-
 /* Impostare il colore per il contenuto del post */
 .card-body .post-content {
     color: #333 !important;
@@ -5980,10 +5974,16 @@ ul.list-unstyled {
 }
  /* background-color: #f9f9f9;  /* Facoltativo: aggiunge un colore di sfondo per il titolo */
 
-/* Colore per il tasto Like */
+/* Colore per il tasto Like
 .btn-like {
-  background-color: #4CAF50;  /* Verde per Like */
-  color: white;
+
+} */
+
+/* Pulsanti like/commento */
+.btn-light {
+    background-color: #7EC8E3; /* Azzurro chiaro */
+    color: white; /* Testo bianco per contrasto */
+    border: 1px solid #ccc;
 }
 
 /* Colore per il tasto confirms*/
