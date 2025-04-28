@@ -2957,7 +2957,21 @@ section,
 
 /* Contenitore dell'avatar */
 .avatar-container {
+    width: 40px; /* Impostiamo una larghezza fissa per il contenitore dell'avatar */
+    height: 40px; /* Impostiamo un'altezza fissa per il contenitore dell'avatar */
     margin-right: 10px; /* Spazio tra avatar e nome */
+    overflow: hidden; /* Nasconde eventuali parti dell'immagine che escono dal contenitore */
+    display: flex;
+    justify-content: center; /* Centra l'immagine orizzontalmente */
+    align-items: center; /* Centra l'immagine verticalmente */
+}
+
+/* Avatar con dimensione ridotta */
+.avatar {
+    width: 100%; /* Fa sì che l'immagine riempia il contenitore */
+    height: 100%; /* Fa sì che l'immagine riempia il contenitore */
+    object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
+    border-radius: 50%; /* Rende l'immagine circolare */
 }
 
 /* Avatar con dimensione ridotta */
