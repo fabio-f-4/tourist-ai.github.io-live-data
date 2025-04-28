@@ -2966,18 +2966,21 @@ section,
     align-items: center; /* Centra l'immagine verticalmente */
 }
 
-/* Avatar con dimensione ridotta */
-.avatar {
-    width: 100%; /* Fa sì che l'immagine riempia il contenitore */
-    height: 100%; /* Fa sì che l'immagine riempia il contenitore */
-    object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
-    border-radius: 50%; /* Rende l'immagine circolare */
+/* Contenitore dell'avatar */
+.avatar-container {
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 10px !important;
+    overflow: hidden !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 /* Avatar con dimensione ridotta */
 .avatar {
-    width: 40px; /* Dimensione dell'avatar */
-    height: 40px; /* Dimensione dell'avatar */
-    border-radius: 50%; /* Rende l'immagine circolare */
-    object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
 }
