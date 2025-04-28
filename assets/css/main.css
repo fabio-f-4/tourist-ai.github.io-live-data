@@ -2961,10 +2961,18 @@ section,
   justify-content: space-between;
 }
 
+.post-header {
+  display: flex;
+  align-items: center; /* Allinea l'avatar e il nome orizzontalmente */
+}
+
+.avatar-container {
+  margin-right: 10px; /* Distanza tra avatar e nome */
+}
+
 .avatar {
   width: 40px; /* Dimensione dell'avatar */
   height: 40px; /* Dimensione dell'avatar */
   border-radius: 50%; /* Rende l'immagine circolare */
-  margin-right: 10px; /* Spazio tra l'avatar e il nome */
   object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
 }
