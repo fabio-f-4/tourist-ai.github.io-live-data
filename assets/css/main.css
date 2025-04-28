@@ -2955,18 +2955,20 @@ section,
     list-style: none;
 }
 
-.avatar {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 50%; /* cerchio perfetto */
-  border: 2px solid #ddd;
-}
-
 .post-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-info {
+  display: flex;
+  flex-direction: column;
 }
 
 .post-header > div {
