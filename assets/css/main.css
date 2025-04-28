@@ -2890,7 +2890,8 @@ section,
 /* Header del post (nome e tempo) */
 .post-header {
     display: flex;
-    justify-content: space-between;
+    align-items: center; /* Allinea verticalmente avatar e nome */
+    justify-content: space-between; /* Spazia l'avatar e il tempo */
     margin-bottom: 10px;
 }
 
@@ -2925,13 +2926,6 @@ section,
     border: 1px solid #ccc;
 }
 
-/* Impostare il colore per il contenuto del post */
-.card-body .post-content {
-    color: #333 !important;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
 /* Stili per il riquadro della lista */
 .card-body .list-item {
     margin-bottom: 20px;
@@ -2955,28 +2949,21 @@ section,
     list-style: none;
 }
 
-/* Impostazioni generali per il post */
-.post-header {
-  display: flex;
-  align-items: center; /* Allinea verticalmente avatar e nome */
-  justify-content: space-between; /* Spazia l'avatar e il tempo */
-}
-
 /* Contenitore dell'avatar e del nome */
 .post-author {
-  display: flex;
-  align-items: center; /* Allinea orizzontalmente l'avatar con il nome */
+    display: flex;
+    align-items: center; /* Allinea orizzontalmente l'avatar con il nome */
 }
 
 /* Contenitore dell'avatar */
 .avatar-container {
-  margin-right: 10px; /* Spazio tra avatar e nome */
+    margin-right: 10px; /* Spazio tra avatar e nome */
 }
 
 /* Avatar con dimensione ridotta */
 .avatar {
-  width: 40px; /* Dimensione dell'avatar */
-  height: 40px; /* Dimensione dell'avatar */
-  border-radius: 50%; /* Rende l'immagine circolare */
-  object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
+    width: 40px; /* Dimensione dell'avatar */
+    height: 40px; /* Dimensione dell'avatar */
+    border-radius: 50%; /* Rende l'immagine circolare */
+    object-fit: cover; /* Rende l'immagine adattata senza distorsioni */
 }
