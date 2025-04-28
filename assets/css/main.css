@@ -5971,6 +5971,15 @@ ul.list-unstyled {
   margin-top: 30px; /* Puoi anche usare questo se preferisci regolare il margine superiore della lista */
 }
 
+/* Aggiungi un riquadro attorno al titolo */
+.card-title {
+  padding: 10px 15px; /* Aggiunge spazio interno per il titolo */
+  border: 2px solid #ddd; /* Imposta il bordo */
+  border-radius: 5px; /* Rende gli angoli arrotondati */
+  margin-bottom: 20px; /* Aumenta lo spazio tra il titolo e la lista */
+  background-color: #f9f9f9; /* Facoltativo: aggiunge un colore di sfondo per il titolo */
+}
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
