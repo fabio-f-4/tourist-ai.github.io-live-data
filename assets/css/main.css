@@ -5967,13 +5967,21 @@ section,
   margin-bottom: 10px; /* Distanza tra gli elementi della lista */
 }
 
+ul.list-unstyled {
+  margin-top: 30px; /* Puoi anche usare questo se preferisci regolare il margine superiore della lista */
+}
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
 } */
 
-/* Aggiungi spazio tra il titolo e la lista */
+/* Aggiungi spazio tra il titolo e la lista 
 .card-title {
-  margin-bottom: 20px; /* Aumenta lo spazio tra il titolo e la lista */
-}
+  margin-bottom: 20px; 
+}*/
+
+
+
+
 
