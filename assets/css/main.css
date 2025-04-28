@@ -5902,6 +5902,7 @@ section,
 }
 
 
+
 /*--------------------------------------------------------------
 # Avatar Section (specifico per i post)
 --------------------------------------------------------------*/
@@ -5933,4 +5934,26 @@ section,
 .post-author {
     display: flex;
     align-items: center; /* Allinea orizzontalmente l'avatar con il nome */
+}
+
+/* Stile per il numero di like accanto al tasto Like */
+.post-footer {
+  display: flex;
+  align-items: center; /* Allinea i bottoni e il numero orizzontalmente */
+  margin-top: 10px;
+}
+
+.like-count {
+  margin-right: 10px; /* Distanza tra il numero e il bottone */
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Scritta "Local Guide" sotto il nome dell'autore */
+.local-guide {
+  display: block;
+  font-size: 0.8rem;
+  color: #666; /* Colore grigio per il testo */
+  margin-top: 5px; /* Spazio tra il nome e "Local Guide" */
 }
