@@ -5959,6 +5959,7 @@ section,
   font-weight: bold; /* Impostazione del grassetto */
 }
 
+
 /* Aggiungi una riga divisoria tra gli elementi della lista */
 .list-item {
   border-bottom: 1px solid #ddd; /* Aggiunge la linea divisoria */
@@ -5969,4 +5970,8 @@ section,
 /* Rimuovi la linea divisoria dall'ultimo elemento */
 .list-item:last-child {
   border-bottom: none;
+}
+
+ul.list-unstyled {
+  margin-top: 10px; /* Puoi anche usare questo se preferisci regolare il margine superiore della lista */
 }
