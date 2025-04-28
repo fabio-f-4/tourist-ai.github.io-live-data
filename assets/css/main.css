@@ -5992,11 +5992,6 @@ ul.list-unstyled {
   color: white;
 }
 
-/* Colore per i tasti Comment */
-.btn-light {
-  background-color: #e0e0e0;
-}
-
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
