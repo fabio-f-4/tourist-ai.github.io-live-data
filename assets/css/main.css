@@ -2964,6 +2964,40 @@ section,
 .avatar {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.post-header {
+  /* allinea avatar+info e tempo */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-header .d-flex.align-items-center {
+  /* contiene avatar e user-info su una riga */
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.post-time {
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.post-content {
+  margin-top: 0.5rem;
+  color: #333;
+}
+
+.post-footer {
+  margin-top: 0.5rem;
 }
