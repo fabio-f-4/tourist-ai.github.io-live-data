@@ -5977,7 +5977,24 @@ ul.list-unstyled {
   border: 2px solid #ddd; /* Imposta il bordo */
   border-radius: 5px; /* Rende gli angoli arrotondati */
   margin-bottom: 20px; /* Aumenta lo spazio tra il titolo e la lista */
- /* background-color: #f9f9f9;  Facoltativo: aggiunge un colore di sfondo per il titolo */
+}
+ /* background-color: #f9f9f9;  /* Facoltativo: aggiunge un colore di sfondo per il titolo */
+
+/* Colore per il tasto Like */
+.btn-like {
+  background-color: #4CAF50;  /* Verde per Like */
+  color: white;
+}
+
+/* Colore per il tasto confirms*/
+.btn-confirms{
+  background-color: #F44336;  /* Rosso per Dislike */
+  color: white;
+}
+
+/* Colore per i tasti Comment */
+.btn-light {
+  background-color: #e0e0e0;
 }
 
 /* Rimuovi la linea divisoria dall'ultimo elemento
