@@ -5828,109 +5828,131 @@ section,
 }
 
 
-/* Stile generale per il riquadro dei post */
-.card-body {
-    padding: 20px;
-    color: #333;
-}
-
+/* Modifiche generali alla struttura dei post */
 .post {
-    border-bottom: 1px solid #ddd; /* Linea divisoria tra i post */
-    padding: 15px 0;
-    margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.post:last-child {
-    border-bottom: none; /* Rimuove la linea divisoria dall'ultimo post */
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-header .d-flex.align-items-center {
+  display: flex;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
 }
 
 .post-time {
-    font-size: 0.9rem;
-    color: #666;
+  font-size: 0.8rem;
+  color: #777;
 }
 
-/* Contenuto del post */
 .post-content {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333 !important;
+  margin-top: 0.5rem;
+  color: #333;
 }
 
-/* Footer del post (like, comment) */
 .post-footer {
-    margin-top: 10px;
+  margin-top: 0.5rem;
 }
-
-.post-footer button {
-    margin-right: 10px;
-}
-
-/* Pulsanti like/commento */
-.btn-light {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-}
-
-/* Impostare il colore per il contenuto del post */
-.card-body .post-content {
-    color: #333 !important;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-/* Stili per il riquadro della lista */
-.card-body .list-item {
-    margin-bottom: 20px;
-}
-
-.card-body .list-item-title {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.card-body .list-item-content {
-    color: #666;
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-/* Impostazione della lista senza numeri o punti */
-.card-body .list-unstyled {
-    padding-left: 0;
-    list-style: none;
-}
-
 
 /*--------------------------------------------------------------
 # Avatar Section (specifico per i post)
 --------------------------------------------------------------*/
-/* Avatar Container */
-.post .avatar-container {
-    margin-right: 10px; /* Spazio tra avatar e nome */
-    width: 50px; /* Imposta la larghezza del contenitore dell'avatar */
-    height: 50px; /* Imposta l'altezza del contenitore dell'avatar */
-    overflow: hidden; /* Nasconde le parti in eccesso */
-    position: relative; /* Assicurati che non venga influenzato da altre regole */
+/* Stile per l'avatar */
+.avatar {
+  width: 40px; /* Impostiamo la larghezza dell'avatar */
+  height: 40px; /* Impostiamo l'altezza dell'avatar */
+  object-fit: cover; /* Assicura che l'immagine si adatti senza distorsioni */
+  border-radius: 50%; /* Rende l'avatar rotondo */
+  border: 2px solid #ddd; /* Aggiunge un bordo sottile di colore grigio */
 }
 
-/* Avatar con dimensione ridotta */
-.post .avatar {
-    width: 100%; /* L'immagine riempie l'intero contenitore */
-    height: 100%; /* L'immagine riempie l'intero contenitore */
-    border-radius: 50%; /* Rende l'immagine circolare */
-    object-fit: cover; /* Assicura che l'immagine si adatti senza distorsioni */
-}
-
-/* Avatar di dimensioni fisse per evitare conflitti con hero */
+/* Stili per i post */
 .post-header {
-    display: flex;
-    align-items: center; /* Allinea verticalmente avatar e nome */
-    justify-content: space-between; /* Spazia l'avatar e il tempo */
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-/* Contenitore dell'avatar e del nome */
-.post-author {
-    display: flex;
-    align-items: center; /* Allinea orizzontalmente l'avatar con il nome */
+.post-content {
+  color: #333; /* Colore del testo del post */
+  font-size: 1rem;
 }
+
+.post-footer {
+  margin-top: 10px;
+  text-align: right; /* Allinea i pulsanti di interazione a destra */
+}
+
+/* Pulsanti Like e Comment */
+.btn-light {
+  background-color: #f8f9fa; /* Colore di sfondo chiaro */
+  color: #333; /* Colore del testo */
+  border: 1px solid #ddd; /* Bordo grigio chiaro */
+}
+
+.btn-light:hover {
+  background-color: #e9ecef; /* Colore di sfondo al passaggio del mouse */
+  color: #000; /* Colore del testo al passaggio del mouse */
+}
+
+/* Stili generali per il layout */
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Layout del contenitore */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col-md-4 {
+  flex: 1 0 33.333%; /* Imposta la larghezza del 33% */
+  padding: 15px;
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+
