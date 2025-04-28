@@ -5981,14 +5981,14 @@ ul.list-unstyled {
 
 /* Pulsanti like/commento */
 .btn-light {
-    background-color: #7EC8E3; /* Azzurro chiaro */
+    background-color: #CCFFFF; /*#7EC8E3;  Azzurro chiaro */
     color: white; /* Testo bianco per contrasto */
     border: 1px solid #ccc;
 }
 
 /* Colore per il tasto confirms*/
 .btn-confirm{
-  background-color: #34B7F1/* #F44336;  /* Rosso per Dislike */
+  background-color: #34B7F1; /* #F44336;  /* Rosso per Dislike */
   color: white;
   border: 1px solid #ccc;
 }
