@@ -5955,6 +5955,6 @@ section,
   display: block;
   font-size: 0.8rem;
   color: #666; /* Colore grigio per il testo */
-  margin-top: 3px; /* Spazio tra il nome e "Local Guide" */
+  margin-top: 2px; /* Spazio tra il nome e "Local Guide" */
   font-weight: bold; /* Impostazione del grassetto */
 }
