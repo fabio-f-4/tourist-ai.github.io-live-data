@@ -5987,7 +5987,7 @@ ul.list-unstyled {
 }
 
 /* Colore per il tasto confirms*/
-.btn-confirms{
+.btn-confirm{
   background-color: #34B7F1/* #F44336;  /* Rosso per Dislike */
   color: white;
 }
