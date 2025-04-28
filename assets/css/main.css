@@ -5867,7 +5867,7 @@ section,
 
 /* Pulsanti like/commento */
 .btn-light {
-    background-color: #f0f0f0;
+    background-color: #1877F2;
     border: 1px solid #ccc;
 }
 
@@ -5988,7 +5988,7 @@ ul.list-unstyled {
 
 /* Colore per il tasto confirms*/
 .btn-confirms{
-  background-color: #F44336;  /* Rosso per Dislike */
+  background-color: #34B7F1/* #F44336;  /* Rosso per Dislike */
   color: white;
 }
 
