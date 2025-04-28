@@ -5958,3 +5958,15 @@ section,
   margin-top: 2px; /* Spazio tra il nome e "Local Guide" */
   font-weight: bold; /* Impostazione del grassetto */
 }
+
+/* Aggiungi una riga divisoria tra gli elementi della lista */
+.list-item {
+  border-bottom: 1px solid #ddd; /* Aggiunge la linea divisoria */
+  padding-bottom: 10px; /* Spazio tra il contenuto e la riga divisoria */
+  margin-bottom: 10px; /* Distanza tra gli elementi della lista */
+}
+
+/* Rimuovi la linea divisoria dall'ultimo elemento */
+.list-item:last-child {
+  border-bottom: none;
+}
