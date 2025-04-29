@@ -6010,7 +6010,7 @@ ul.list-unstyled {
   border-radius: 5px;
   overflow: hidden;
   padding: 0;
-  font-weight: bold;
+  font-weight: 650;
   font-family: sans-serif;
   cursor: pointer;
 }
@@ -6018,7 +6018,7 @@ ul.list-unstyled {
 .like-number {
   background-color: white;
   color: #333;
-  border-right: 2px solid #7EC8E3;
+  border-right: 1px solid #7EC8E3;
   padding: 5px 6px;  
   display: flex;
   align-items: center;
