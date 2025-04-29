@@ -6004,16 +6004,18 @@ ul.list-unstyled {
 }
 /* background-color: #ffffff; #34B7F1; /* #F44336;  /* Rosso per Dislike */
 
-.like-button-wrapper {
+.like-combo-button {
   display: inline-flex;
-  border: 2px solid #7EC8E3;
+  border: 2px solid #7EC8E3; /* Azzurro chiaro */
   border-radius: 5px;
   overflow: hidden;
+  padding: 0;
   font-weight: bold;
   font-family: sans-serif;
+  cursor: pointer;
 }
 
-.like-count {
+.like-number {
   background-color: transparent;
   color: #7EC8E3;
   padding: 8px 12px;
@@ -6023,15 +6025,14 @@ ul.list-unstyled {
   justify-content: center;
 }
 
-.like-action {
+.like-text {
   background-color: #7EC8E3;
   color: white;
-  border: none;
   padding: 8px 16px;
-  cursor: pointer;
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
