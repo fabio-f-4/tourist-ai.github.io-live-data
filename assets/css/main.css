@@ -6019,7 +6019,7 @@ ul.list-unstyled {
   background-color: white;
   color: #333;
   border-right: 1px solid #7EC8E3;
-  padding: 4px 6px;  
+  padding: 3px 6px;  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6031,7 +6031,7 @@ ul.list-unstyled {
     color: white; /* Testo bianco per contrasto */
     display: inline-flex;
     align-items: center;
-    padding: 4px 9px;
+    padding: 3px 9px;
     font-size: 12px;
     font-weight: 650; /* <-- Grassetto robusto (più di 'bold') */
 }
