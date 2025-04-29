@@ -5983,7 +5983,7 @@ ul.list-unstyled {
 .btn-light {
     background-color: #7EC8E3; /* Azzurro chiaro */ /*#7EC8E3; #9fc2ff; /* Azzurro chiaro */
     color: white; /* Testo bianco per contrasto */
-    border: 1px solid #ccc;
+    border: 1px solid #9fc2ff; /*#ccc */
 
     display: inline-flex;
     align-items: center;
@@ -5993,12 +5993,17 @@ ul.list-unstyled {
     font-weight: 600; /* <-- Grassetto robusto (più di 'bold') */
 }
 
+.btn-light:hover {
+  border-color: #349ec9;
+}
+
 /* Colore per il tasto confirms*/
 .btn-confirm{
   color: black;
   border: 1px solid #ccc;
 }
 /* background-color: #ffffff; #34B7F1; /* #F44336;  /* Rosso per Dislike */
+
 
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
