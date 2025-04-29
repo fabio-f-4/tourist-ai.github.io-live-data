@@ -5981,9 +5981,16 @@ ul.list-unstyled {
 
 /* Pulsanti like/commento */
 .btn-light {
-    background-color: #9fc2ff; /* Azzurro chiaro */
+    background-color: #9fc2ff; /* Azzurro chiaro */ /*#7EC8E3; /* Azzurro chiaro */
     color: white; /* Testo bianco per contrasto */
     border: 1px solid #ccc;
+
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: 700; /* <-- Grassetto robusto (più di 'bold') */
 }
 
 /* Colore per il tasto confirms*/
