@@ -6036,6 +6036,15 @@ ul.list-unstyled {
     font-weight: 650; /* <-- Grassetto robusto (più di 'bold') */
 }
 
+/* Scritta "Local Guide" sotto il nome dell'autore */
+.event-location {
+  display: block;
+  font-size: 1rem;
+  color: #666; /* Colore grigio per il testo */
+  margin-top: 2px; /* Spazio tra il nome e "Local Guide" */
+  font-weight: bold; /* Impostazione del grassetto */
+}
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
