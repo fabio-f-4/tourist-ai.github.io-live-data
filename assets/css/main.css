@@ -6045,6 +6045,12 @@ ul.list-unstyled {
   font-weight: bold; /* Impostazione del grassetto */
 }
 
+.list-item-footer {
+  margin-top: 8px;
+  font-style: italic;
+  color: #666;
+}
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
