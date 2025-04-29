@@ -5990,7 +5990,7 @@ ul.list-unstyled {
     padding: 5px 10px;
     font-size: 12px;
     border-radius: 5px;
-    font-weight: 600; /* <-- Grassetto robusto (più di 'bold') */
+    font-weight: 650; /* <-- Grassetto robusto (più di 'bold') */
 }
 
 .btn-light:hover {
