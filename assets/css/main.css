@@ -6016,10 +6016,10 @@ ul.list-unstyled {
 }
 
 .like-number {
-  background-color: transparent;
+  background-color: white;
   color: black;
   border-right: 2px solid #7EC8E3;
-  padding: 8px 12px;  
+  padding: 5px 5px;  
   display: flex;
   align-items: center;
   justify-content: center;
