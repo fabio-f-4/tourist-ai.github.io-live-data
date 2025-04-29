@@ -5994,7 +5994,7 @@ ul.list-unstyled {
 }
 
 .btn-light:hover {
-  border-color: #349ec9;
+  border-color: ##9fc2ff /*#349ec9; */
 }
 
 /* Colore per il tasto confirms*/
@@ -6004,6 +6004,33 @@ ul.list-unstyled {
 }
 /* background-color: #ffffff; #34B7F1; /* #F44336;  /* Rosso per Dislike */
 
+.like-button-wrapper {
+  display: inline-flex;
+  border: 2px solid #7EC8E3;
+  border-radius: 5px;
+  overflow: hidden;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.like-count {
+  background-color: transparent;
+  color: #7EC8E3;
+  padding: 8px 12px;
+  border-right: 2px solid #7EC8E3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-action {
+  background-color: #7EC8E3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
