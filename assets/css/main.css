@@ -6006,7 +6006,7 @@ ul.list-unstyled {
 
 .like-combo-button {
   display: inline-flex;
-  border: 2px solid #7EC8E3; /* Azzurro chiaro */
+  border: 1px solid #9fc2ff;
   border-radius: 5px;
   overflow: hidden;
   padding: 0;
@@ -6017,8 +6017,7 @@ ul.list-unstyled {
 
 .like-number {
   background-color: transparent;
-  color: #7EC8E3;
-  padding: 8px 12px;
+  color: black;
   border-right: 2px solid #7EC8E3;
   display: flex;
   align-items: center;
@@ -6026,13 +6025,16 @@ ul.list-unstyled {
 }
 
 .like-text {
-  background-color: #7EC8E3;
-  color: white;
-  padding: 8px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background-color: #7EC8E3; /* Azzurro chiaro */ /*#7EC8E3; #9fc2ff; /* Azzurro chiaro */
+    color: white; /* Testo bianco per contrasto */
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 650; /* <-- Grassetto robusto (più di 'bold') */
 }
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
