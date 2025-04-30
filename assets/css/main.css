@@ -6057,7 +6057,7 @@ ul.list-unstyled {
   height: 1px;
   width: 100%;
   background-color: #ccc;   /* colore della linea */
-  margin: 0px 0;           /* spazi sopra e sotto */
+  margin: 2px 0;           /* spazi sopra e sotto */
 }
 
 /* Rimuovi la linea divisoria dall'ultimo elemento
