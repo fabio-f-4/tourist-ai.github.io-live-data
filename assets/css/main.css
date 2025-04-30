@@ -6051,6 +6051,15 @@ ul.list-unstyled {
   color: #666;
 }
 
+.custom-divider {
+  all: unset;               /* rimuove tutti gli stili ereditati o predefiniti */
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;   /* colore della linea */
+  margin: 2px 0;           /* spazi sopra e sotto */
+}
+
 /* Rimuovi la linea divisoria dall'ultimo elemento
 .list-item:last-child {
   border-bottom: none;
